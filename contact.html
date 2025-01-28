@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Digital Marketing Website Template</title>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- AOS CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Custom CSS -->
+    <link href="/styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm">
+      <div class="container">
+        <a class="navbar-brand" href="/index.html">BrandName</a>
+        <button
+          class="navbar-toggler"
+          data-bs-target="#navbarNav"
+          data-bs-toggle="collapse"
+          type="button"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="/index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/services.html">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/aboutus.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/contact.html">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="btn btn-primary" href="/contact.html"> Get Started </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Contact Section -->
+    <section class="bg-light py-5" id="contact">
+      <div class="container">
+        <div>
+          <h2
+            class="text-center mb-4"
+            data-aos="fade-down"
+            style="
+              display: flex;
+              justify-content: center;
+              flex-direction: column;
+              align-items: center;
+              color: #7a6960;
+            "
+          >
+            Contact Us
+            <div
+              style="
+                border-bottom: 4px solid #ea580c;
+                width: 5%;
+                margin-top: 10px;
+                border-radius: 50px;
+              "
+            ></div>
+          </h2>
+        </div>
+        <div style="text-align: center; padding: 20px 70px">
+          <p>
+            Have questions, ideas, or just want to say hello? We'd love to hear
+            from you! Reach out to us, and let's start a conversation. Your
+            voice matters, and we're here to listen.
+          </p>
+        </div>
+        <div class="row">
+          <div class="col-md-6 mb-4 mb-md-0" data-aos="fade-up">
+            <div
+              class="contactcontain"
+              style="
+                box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+                padding: 60px 30px;
+                height: 100%;
+              "
+            >
+              <form id="contactForm">
+                <div class="mb-3">
+                  <label class="form-label" for="name"> Name </label>
+                  <input
+                    class="form-control"
+                    id="name"
+                    placeholder="John Doe"
+                    required
+                    type="text"
+                  />
+                </div>
+                <div class="mb-3">
+                  <label class="form-label" for="email"> Email </label>
+                  <input
+                    class="form-control"
+                    id="email"
+                    placeholder="johndoe@example.com"
+                    required
+                    type="email"
+                  />
+                </div>
+                <div class="mb-3">
+                  <label class="form-label" for="message"> Message </label>
+                  <textarea
+                    class="form-control"
+                    id="message"
+                    placeholder="Your message"
+                    required
+                    rows="5"
+                  >
+                  </textarea>
+                </div>
+                <button class="btn btn-primary" type="submit">
+                  Send Message
+                </button>
+              </form>
+            </div>
+          </div>
+          <div class="col-md-6" data-aos="fade-up">
+            <div
+              class="contactcontain"
+              style="
+                box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+                padding: 60px 30px;
+                height: 100%;
+              "
+            >
+              <div class="mb-4 d-flex align-items-center">
+                <img
+                  alt="Location"
+                  src="img/location2.svg"
+                  style="height: 35px; margin-right: 15px"
+                />
+                <div>
+                  <strong>Address</strong>
+                  <div>A108 Adam Street, New York, NY 535022</div>
+                </div>
+              </div>
+              <div class="mb-4 d-flex align-items-center">
+                <img
+                  alt="Phone"
+                  src="/img/telephone-call.svg"
+                  style="height: 35px; margin-right: 15px"
+                />
+                <div>
+                  <strong>Phone</strong>
+                  <div>+1 5589 55488 55</div>
+                </div>
+              </div>
+              <div class="mb-4 d-flex align-items-center">
+                <img
+                  alt="Email"
+                  src="img/email.svg"
+                  style="height: 35px; margin-right: 15px"
+                />
+                <div>
+                  <strong>Email</strong>
+                  <div>info@example.com</div>
+                </div>
+              </div>
+              <iframe
+                allowfullscreen
+                height="200"
+                loading="lazy"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d166655.41811004592!2d-123.28871046916251!3d49.25761824332818!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x548673f143a94fb3%3A0xbb9196ea9b81f38b!2sVancouver%2C%20BC%2C%20Canada!5e0!3m2!1sen!2sin!4v1738068337028!5m2!1sen!2sin"
+                style="border: 0; width: 90%; margin-top: 20px"
+              >
+              </iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4">
+              <h5>BrandName</h5>
+              <p>A108 Adam Street, New York, NY 535022</p>
+            </div>
+            <div class="col-md-4">
+              <h5>Useful Links</h5>
+              <ul class="list-unstyled">
+                <li>
+                  <a class="text-white" href="/index.html">Home</a>
+                </li>
+                <li>
+                  <a class="text-white" href="/aboutus.html">About Us</a>
+                </li>
+                <li>
+                  <a class="text-white" href="/services.html">Services</a>
+                </li>
+                <li>
+                  <a class="text-white" href="contact.html">Contact</a>
+                </li>
+                <li>
+                  <a class="text-white" href="terms.html">privacy policy & term </a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-4">
+              <h5>Follow Us</h5>
+              <a class="text-white me-2" href="#">
+                <i class="fab fa-twitter fa-2x"></i>
+              </a>
+              <a class="text-white me-2" href="#">
+                <i class="fab fa-facebook fa-2x"></i>
+              </a>
+              <a class="text-white me-2" href="#">
+                <i class="fab fa-instagram fa-2x"></i>
+              </a>
+              <a class="text-white" href="#">
+                <i class="fab fa-linkedin fa-2x"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+    <!-- Bootstrap JS (required for accordion functionality) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- AOS JS -->
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <!-- Initialize AOS -->
+    <script>
+      AOS.init();
+    </script>
+    <script>
+      document
+        .getElementById("contactForm")
+        .addEventListener("submit", function (e) {
+          e.preventDefault(); // Prevent the default form submission
+
+          // Get form data
+          const formData = {
+            name: document.getElementById("name").value,
+            email: document.getElementById("email").value,
+            message: document.getElementById("message").value,
+          };
+
+          // Replace with your Google Apps Script Web App URL
+          const scriptURL =
+            "https://script.google.com/macros/s/AKfycbwhLBVr8syMGeiyo93rCoEFPYGvbSiavUmY7B8QpZMYQAXW8zunfjnBTkNG2gFYx5Q-aw/exec";
+
+          // Send data to Google Sheets
+          fetch(scriptURL, {
+            method: "POST",
+            body: JSON.stringify(formData),
+            headers: {
+              "Content-Type": "application/json",
+            },
+            mode: "no-cors", // Disable CORS
+          })
+            .then(() => {
+              alert("Form submitted successfully!");
+              document.getElementById("contactForm").reset(); // Clear the form
+            })
+            .catch((error) => {
+              console.error("Error:", error);
+              alert(
+                "There was an error submitting the form. Please try again."
+              );
+            });
+        });
+    </script>
+  </body>
+</html>
